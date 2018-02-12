@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
 const index = require('./routes/index');
-vaconstr users = require('./routes/users');
+const users = require('./routes/users');
 
 const app = express();
 
